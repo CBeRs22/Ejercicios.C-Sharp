@@ -16,12 +16,12 @@ namespace Ejercicio2
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Ingresa tu Nombre: ");
-            		string nombre = Console.ReadLine();
+            string nombre = Console.ReadLine();
 
-            		Console.WriteLine("Ingresa tu Apellido: ");
-            		string apellido = Console.ReadLine();
+            Console.WriteLine("Ingresa tu Apellido: ");
+            string apellido = Console.ReadLine();
 
-            		Console.WriteLine("HOLA " + nombre + " " + apellido + ", BIENVENIDO!!! ");
+            Console.WriteLine("HOLA " + nombre + " " + apellido + ", BIENVENIDO!!! ");
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
